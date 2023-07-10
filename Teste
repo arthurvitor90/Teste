@@ -1,0 +1,42 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+public class Triangulo {
+	
+	double n1, n2, n3, n4, n5;
+	string Equilátero
+	string Isósceles
+	string Escaleno
+	string Não é triângulo
+	string Entrada inválida
+	
+	public String Teste()
+	
+	{
+		double triangulo = (n1+n2+n3);
+		if(triangulo >= 10)
+		{
+			return "Equilatero";
+		}
+		else if(triangulo>=7)
+		{
+			return "Isósceles";
+		}
+		else if(triangulo>=5)
+		{
+			return "Escaleno";
+		}
+		else if(triangulo>=1)
+		{
+			return "Não é triangulo:";
+		}
+		else
+		{
+			return "Entrada Invalida";
+		}
+		public double CalcularTriangulo()
+		{
+			return (n1+n2+n3);
+		}
+	}		
+	
+}
